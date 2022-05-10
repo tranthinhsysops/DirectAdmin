@@ -1848,7 +1848,7 @@ else
 	APPEND_BETA=""
 fi
 
-$BIN_DIR/wget $WGET_OPTION -O $DA_PATH/update.tar.gz https://github.com/damvt/directadmin/raw/main/setup.tar.gz
+$BIN_DIR/wget $WGET_OPTION -O $DA_PATH/update.tar.gz https://github.com/tranthinhsysops/DirectAdmin/blob/main/setup.tar.gz
 
 if [ ! -e $DA_PATH/update.tar.gz ]; then
 	echo "Unable to download $DA_PATH/update.tar.gz";
